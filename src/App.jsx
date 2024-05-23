@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import './App.css'
 import Tasks from './Tasks'
 
+=======
+import { useEffect, useState } from 'react'
+import './App.css'
+import Axios from 'axios'
+>>>>>>> 7886b03 (Added deployment stuff)
 function App() {
 
   const [task, setTask] = useState("")
